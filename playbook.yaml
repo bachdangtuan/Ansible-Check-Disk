@@ -8,7 +8,7 @@
         state: directory
         owner: isofh
         group: isofh
-        mode: "0755"
+        mode: "0644"
     - name: Copy tool server to Project
       copy:
         src: /home/isofh/ansible/checkpartitiondisk.sh
