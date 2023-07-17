@@ -7,7 +7,7 @@
         path: /home/isofh/checkdiskpartition
         state: directory
         owner: isofh
-        #group: isofh
+        group: isofh
         mode: "0644"
     - name: Copy tool server to Project
       copy:
