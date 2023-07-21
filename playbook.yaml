@@ -6,13 +6,13 @@
       file:
         path: /home/isofh/checkdiskpartition
         state: directory
-        owner: isofh
-        group: isofh
+        # owner: isofh
+        # group: isofh
         mode: "0755"
     - name: Copy tool server to Project
       copy:
         src: /home/isofh/ansible/checkpartitiondisk.sh
         dest: /home/isofh/checkdiskpartition
-        owner: isofh
-        group: isofh
+        # owner: isofh
+        # group: isofh
         mode: "0644"
